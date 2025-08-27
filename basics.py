@@ -18,10 +18,10 @@ is_student = False
 
 
 # Now it is your turn, fill in these variables with different data (maybe about you, but it doesn't have to be)
-age = 
-name = 
-height = 
-is_student = 
+age = 40
+name = "Charles"
+height = 6.17
+is_student = True
 
 # We can also do aritmetic in Python, with variables or actual numbers
 age_in_five_years = age + 5
@@ -33,6 +33,14 @@ is_old_enough_to_drive = age >= 16
 
 
 # Your turn.  Create a comparison statement 
-
+is_too_old_to_be_a_student = age >= 41
 
 #Finally, save this file, commit, and push to github
+
+print("Name:", name)
+print("Age:", age)
+print("Height in feet:", height)
+print("Age in five years:", age_in_five_years)
+print("Product:", product)
+print("Old enough to drive:", is_old_enough_to_drive)
+print("Too old to be a student:", is_too_old_to_be_a_student)
